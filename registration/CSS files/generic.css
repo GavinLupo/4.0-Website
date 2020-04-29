@@ -1,0 +1,115 @@
+/*********************************************************
+ * This is covers the rest of the pages created on the   *
+ * Site. More than likely not the best Strategy (almost  *
+ * 100% sure) Although feel free to update and seperate  *
+ *                                                       *
+ * Created By: Elijsha Baetiong                          *
+ * Last Edited: 3/16/20                                  *
+ * *******************************************************/
+.header h1{
+	margin-left:42%;
+	color: black;
+  	font-size: auto;
+}
+
+.header img {
+  	width:auto;
+  	height: auto;
+  	float: left;
+}
+
+
+.header nav li{
+	display:inline;
+	font-size:25px;
+	padding:3px 0px 10px 0px;	
+}
+.header nav a{
+	align:center;
+	text-decoration:none;
+	color:black;
+	padding: 3px 30px 10px 30px;
+}
+.header nav li:hover{
+	background-color:darkgrey;
+}
+.header nav ul{
+	color:black;
+	margin: 0px;
+	padding: 2px;
+}
+.header nav{
+	width: 100%;
+	height: 40px;
+	border: 2px solid;
+	border-color: lightgrey white lightgrey white;
+	background-color: lightgrey;
+}
+
+.main_disp h2{
+	text-align:center;
+}
+.main_disp form{
+	float:left;
+	margin-left: 20vw;
+	margin-right:auto;
+	margin-bottom:2%;
+	width: 15vw;
+}
+
+.main_disp button{
+	width: 25vw;
+	padding:25px;
+	background-color:#FE5000;
+	color:#0085CA;
+	font-size:1.2em;
+	font-type:bold;
+}
+div.main_disp{
+	height:72vh;
+}
+.main_disp button:hover{
+	background-color:#000000;
+}
+footer{
+	text-align:center;
+	font-size:10px;
+}
+
+/* OEE status blocks */
+.OEE_status table{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	border-spacing:10px;
+	font-size:72;
+	font-weight:bold;
+}
+.OEE_status td,th {
+	padding:10px;
+	border:0px;
+}
+.OEE_status  .machineStat th{
+	border:0px;
+	
+}
+.OEE_status td.OEE{
+	border: 2px solid lime;
+}
+.OEE_status td.Avalibility{
+	border: 2px solid red;
+}
+.OEE_status td.Performance{
+	border: 2px solid orange;
+}
+.OEE_status td.Quality{
+	border: 2px solid blue;
+}
+.OEE_status table.faults{
+	border:2px solid black;
+	border-collapse:collapse;
+	
+}
+.OEE_status .faults td,th{
+	border:2px solid black;
+}
